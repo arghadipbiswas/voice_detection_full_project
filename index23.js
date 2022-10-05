@@ -4,7 +4,7 @@ console.log("lol");
 
 
 //for locking inspect page
-document.addEventListener('contextmenu', event=> event.preventDefault()); 
+document.addEventListeer('contextmenu', event=> event.preventDefault()); 
 document.onkeydown = function(e) {
   if(event.keyCode == 123) {
   return false;
